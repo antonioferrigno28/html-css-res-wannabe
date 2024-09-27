@@ -128,6 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* MEDIA QUERIES */
+
+/* BONUS */
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+  .container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -150,7 +160,13 @@ img {
     margin-bottom: 50px;
   }
 
-  body {
+  .why-us {
     background-color: #222;
+  }
+
+  .why-us,
+  .steps {
+    margin: 0 auto;
+    padding: 3rem 1rem;
   }
 }
